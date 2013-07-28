@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm -fR .coverage cover/
+#rm -fR .coverage cover/
 
 if ! test "x$(which nosetests-2.6)" = "x"; then
 	printf "Testing \033[32mpython 2.6\033[0m\n"
