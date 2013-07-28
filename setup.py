@@ -1,6 +1,7 @@
 #!/usr/bin/env python
-
-################################################################################
+# -*- coding: utf-8 -*-
+# -*- python -*-
+###############################################################################
 #
 # Copyright (c) 2007-2008 Christopher J. Stawarz
 #
@@ -24,8 +25,7 @@
 # CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 #
-################################################################################
-
+###############################################################################
 
 
 from distutils.core import setup
@@ -37,24 +37,27 @@ desc = pybonjour.__doc__.strip().split('\n\n')
 
 
 setup(
-    name = 'pybonjour',
-    version = pybonjour.__version__,
-    author = 'Christopher Stawarz',
-    author_email = 'cstawarz@gmail.com',
-    url = 'http://code.google.com/p/pybonjour/',
-    description = desc[0].strip(),
-    long_description = desc[1].strip(),
-    download_url = 'http://code.google.com/p/pybonjour/downloads/list?can=1',
-    classifiers = [
+    name='pybonjour',
+    version=pybonjour.__version__,
+    author='Christopher Stawarz',
+    author_email='cstawarz@gmail.com',
+    url='http://code.google.com/p/pybonjour/',
+    description=desc[0].strip(),
+    long_description=desc[1].strip(),
+    download_url='http://code.google.com/p/pybonjour/downloads/list?can=1',
+    classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: MacOS :: MacOS X',
         'Operating System :: Microsoft :: Windows',
         'Operating System :: POSIX',
-        'Programming Language :: Python',
+        'Programming Language :: Python :: 2.6',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.3',
         'Topic :: System :: Distributed Computing',
         'Topic :: System :: Networking',
         ],
-    py_modules = ['pybonjour'],
+    py_modules=['pybonjour'],
     )

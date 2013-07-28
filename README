@@ -1,6 +1,10 @@
 ----------------------------------------------------
 pybonjour:  Pure-Python interface to Apple Bonjour
 
+Author: Jacob Smith <kloptops@gmail.com>
+Version: 1.1.2
+July 28, 2013
+
 Author: Christopher Stawarz <cstawarz@gmail.com>
 Version: 1.1.1
 May 8, 2008
@@ -24,25 +28,23 @@ pybonjour is free software, distributed under the MIT license.
 Requirements
 ------------
 
-pybonjour requires Python 2.4 or later.  It also depends on ctypes
-(version 1.0.1 or later), which is part of the standard library in
-Python 2.5 but must be downloaded and installed separately for Python
-2.4.
+pybonjour now requires Python 2.6 or later.  It also depends on ctypes, which is
+part of the standard library since Python 2.5 so that is no longer a worry.
 
-No additional software is required to use pybonjour under Mac OS X.
-To use it under Windows, the Bonjour for Windows package must be
-installed on your system.  Most Linux systems use Avahi rather than
-Bonjour for DNS-SD.  If this is the case on your system, you'll need
-to install Avahi's Bonjour compatibility library.  (Under Ubuntu, the
-package to install is libavahi-compat-libdnssd1.)  Otherwise, or to
-use pybonjour under other POSIX systems, you must download, compile,
-and install Bonjour from source.
+No additional software is required to use pybonjour under Mac OS X. To use it
+under Windows, the Bonjour for Windows package must be installed on your system.
+Most Linux systems use Avahi rather than Bonjour for DNS-SD. If this is the case
+on your system, you'll need to install Avahi's Bonjour compatibility library.
+(Under Ubuntu, the package to install is libavahi-compat-libdnssd1.)  Otherwise,
+or to use pybonjour under other POSIX systems, you must download, compile, and
+install Bonjour from source.
 
-Both the Bonjour for Windows package and the latest Bonjour source
-code are available for download at
+Both the Bonjour for Windows package and the latest Bonjour source code are
+available for download at
 
   http://developer.apple.com/networking/bonjour/download/
 
+* Not sure they're still available there...
 
 Documentation
 -------------

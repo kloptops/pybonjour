@@ -1,3 +1,12 @@
+1.1.2 (2013-07-28)
+------------------
+
+* Now compatible (actually tested) with python 2.6, 2.7 & 3.3
+
+* Code test coverage is at 94% with coverage. Although it really needs more
+  tests.
+
+
 1.1.1 (2008-05-08)
 ------------------
 

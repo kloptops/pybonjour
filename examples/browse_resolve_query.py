@@ -3,6 +3,7 @@ import socket
 import sys
 import pybonjour
 
+## TODO: update this...
 
 regtype  = sys.argv[1]
 timeout  = 5
