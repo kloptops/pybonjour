@@ -22,8 +22,9 @@ and wide-area networks.  Since pybonjour is implemented in pure
 Python, scripts that use it can easily be ported to Mac OS X, Windows,
 Linux, and other systems that run Bonjour.
 
-pybonjour is free software, distributed under the MIT license.
+Currently does not play well with Avahi. :(
 
+pybonjour is free software, distributed under the MIT license.
 
 Requirements
 ------------
